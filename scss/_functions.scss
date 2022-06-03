@@ -1,0 +1,9 @@
+@function contrastText($color) {
+    $result: $color;
+    $lightness: lightness($result);
+    @if ($lightness < 50) {
+        $result: white;
+    }
+    @return $result;
+}
+

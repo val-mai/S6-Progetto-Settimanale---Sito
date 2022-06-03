@@ -1,0 +1,72 @@
+nav {
+    img {
+        width: 80px;
+    }
+    ul li .active{
+        color: $primary !important;
+    }
+    span i{
+        font-size: 2rem;
+    }
+    i {
+        color: $primary;
+        &:hover {
+            color: $secondary;
+        }
+    }
+}
+
+main{
+    margin-top: 90px;
+}
+
+.bg-dark {
+    color: contrastText($dark);
+}
+
+.first-cta{
+    background: linear-gradient(0deg,rgba(0,0,0,0.4),rgba(0,0,0,0.7)),
+                url(../img/bg.jpg);
+    background-color: rgba($color: #ffffff, $alpha: 0.2);
+    background-size: cover;
+    height: 500px;
+    color: white;
+    div{
+        padding-left: 5rem;
+    }
+    a{
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        color: white;
+    }
+}
+
+.services{
+    div{
+        text-align: center;
+        i{
+            font-size: 3rem;
+            color: $primary;
+        }
+    }
+}
+
+.partnerships{
+    img {
+        width: 100px;
+    }
+}
+
+.reviews {
+    img{
+        width: 200px;
+    }
+}
+
+footer {
+    img{
+        width: 80px;
+    }
+}
+
+
