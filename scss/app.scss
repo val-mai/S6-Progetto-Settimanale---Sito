@@ -1,5 +1,13 @@
+/* Importazione del backup delle variabili di Bootstrap (sono state tolte le righe che causavano un errore) */
 @import 'variables';
+
+/* Importazione Bootstrap*/
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+/* Importazione funzione per cambiare il colore di testi a seconda dello sfondo */
 @import 'functions';
+
+/* Partials con le modifica della home e della pagina contatti */
+
 @import 'customhome';
 @import 'contact';
