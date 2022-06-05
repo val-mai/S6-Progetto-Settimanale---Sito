@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="node_modules/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="scss/app.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="fixed-top">
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-gradient bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+                <button class="navbar-toggler border border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span><i class="bi bi-list"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav w-100 justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Servizi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contactus.html">Contatti</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="bi-twitter"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="bi-twitch"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="bi-discord"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="bi-whatsapp"></i></a></li>
+                        <li class="form-switch d-flex px-md-4 p-0 align-items-center m-0">
+                            <label class="form-check-label text-center" for="flexSwitchCheckDefault"><i
+                                    class="bi bi-lightbulb-off"></i></label>
+                            <input class="d-flex md-justify-content-end form-check-input mx-2 my-0" type="checkbox"
+                                role="switch" id="SwitchCheck">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="py-5">
+            <h1 class="text-center mt-3">Contattaci</h1>
+            <div class="container mt-3">
+                <form class="row g-3 d-flex flex-column align-items-center">
+                    <div class="col-md-6">
+                        <label for="inputname" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="inputname">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputlastname" class="form-label">Cognome</label>
+                        <input type="text" class="form-control" id="inputlastname">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputAddress" class="form-label">Indirizzo</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Via, piazza...">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputCity" class="form-label">Città</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label for="inputState" class="form-label">Stato</label>
+                                <select id="inputState" class="form-select">
+                                    <option selected>Italia</option>
+                                    <option>Estero</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="inputCap" class="form-label">CAP</label>
+                                <input type="text" class="form-control" id="inputCap">
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-md-6 mt-5">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
+                            placeholder="Inserisci qui il tuo messaggio"></textarea>
+                    </div>
+                    <div class="col-12 text-center">
+                        <button type="submit" class="btn btn-primary">Invia il messaggio</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer mt-auto py-3 bg-dark bg-gradient text-light">
+        <div class="container text-center">
+            <!-- <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a> -->
+            <div class="row py-4">
+                <div class="col-md-3 py-4">
+                    <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+                </div>
+                <div class="col-md-3">
+                    <h4>Mission & Vision</h4>
+                    <p>Lorem ipsum</p>
+                    <p>Lorem ipsum</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>Dove siamo</h4>
+                    <p>Lorem ipsum</p>
+                    <p>Lorem ipsum</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>Contatti</h4>
+                    <p>Lorem ipsum</p>
+                    <p>Lorem ipsum</p>
+                </div>
+            </div>
+            <span class="text-light">&copy; Valerio Maiolini per Epicode</span>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

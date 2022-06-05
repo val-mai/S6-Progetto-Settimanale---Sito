@@ -11962,7 +11962,7 @@ nav img {
 }
 
 nav ul li .active {
-  color: #fd7e14 !important;
+  color: #ffc107;
 }
 
 nav span i {
@@ -11978,7 +11978,7 @@ nav i:hover {
 }
 
 main {
-  margin-top: 90px;
+  margin-top: 106px;
 }
 
 .bg-dark {
@@ -12014,7 +12014,7 @@ main {
 }
 
 .partnerships img {
-  width: 100px;
+  height: 100px;
 }
 
 .reviews img {
@@ -12023,5 +12023,11 @@ main {
 
 footer img {
   width: 80px;
+}
+
+form .btn-primary {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  color: white;
 }
 /*# sourceMappingURL=app.css.map */

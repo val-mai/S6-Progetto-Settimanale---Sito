@@ -3,7 +3,7 @@ nav {
         width: 80px;
     }
     ul li .active{
-        color: $primary !important;
+        color: $warning;
     }
     span i{
         font-size: 2rem;
@@ -17,7 +17,7 @@ nav {
 }
 
 main{
-    margin-top: 90px;
+    margin-top: 106px;
 }
 
 .bg-dark {
@@ -53,7 +53,7 @@ main{
 
 .partnerships{
     img {
-        width: 100px;
+        height: 100px;
     }
 }
 
